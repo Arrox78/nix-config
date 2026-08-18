@@ -6,6 +6,8 @@
   nixpkgs.config.allowUnfree = true;
 
   programs.firefox.enable = true;
+  
+  services.flatpak.enable = true;
 
   programs.mtr.enable = true;
   programs.gnupg.agent = {

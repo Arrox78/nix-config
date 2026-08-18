@@ -2,10 +2,7 @@
 
 {
 
-boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-
-  boot.kernelParams = [
+boot.kernelParams = [
     "quiet"
     "splash"
     "i8042.dumbkbd=1"
